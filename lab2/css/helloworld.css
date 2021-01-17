@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  font-size: 350%;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#divcontent {
+  background-color: #cccccc;
+  border-style: dashed;
+  border: dashed 1px #000000;
+}
