@@ -1,0 +1,28 @@
+h1 {
+  color: #6B1B00;
+  font-size: 300%;
+  margin-left: 10px;
+}
+
+h2 {
+  color: #282828;
+  font-size: 200%;
+  margin-left: 5px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#divcontent {
+  background-color: #FFFEF2;
+  border-style: solid;
+  border: dashed 1px #000000;
+  text-indent: 35px;
+}
+
+img {
+  margin-left: 15px;
+}
