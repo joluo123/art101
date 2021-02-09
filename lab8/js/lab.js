@@ -16,6 +16,20 @@ function thirdThing(test){
   console.log(test + ": This is from the Third Thing Function.");
 }
 
+//Multiple function that takes in two parameters and multiples it.
+function myMultiplier(num1, num2) {
+  var product = num1 * num2;
+  document.writeln("<div id = divNameContent> <p> Your Answer: " + num1 + "*" + num2 + " = " + product + "</p></div>");
+  console.log(product + ": This is the product you asked for.");
+  return product;
+}
+
+//testing the calculator for a callback.
+ var n1 = window.prompt("Enter the First Number");
+ var n2 = window.prompt("Enter the Second Number");
+ var findProduct = Math.round(myMultiplier(n1, n2));
+ document.writeln("<div id = divNameContent> <p> This is the number rounded: " + findProduct + "</p></div>");
+
 //First test, calling the three function in order using "TEST 1" as the argument.
 firstThing("TEST 1");
 secondThing("TEST 1");
