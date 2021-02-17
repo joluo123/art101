@@ -1,0 +1,54 @@
+h1 {
+  color: #4d4dff;
+  font-size: 250%;
+  margin-left: 0px;
+}
+
+h2 {
+  color: #282828;
+  font-size: 200%;
+  margin-left: 5px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 20px;
+  margin-left: 20px;
+}
+
+#divcontent {
+  background-color: #e3e3e3;
+  border-style: solid;
+  border: dashed 1px #000000;
+  text-indent: 35px;
+}
+
+img {
+  margin-left: 15px;
+}
+
+.fontSize {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 30px !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.green {
+  color: green !important;
+}
+
+.blue {
+  color: blue !important;
+}
+
+.black {
+  color: black !important;
+}
+
+#challenge {
+  font-weight: bold;
+  font-size: 10px;
+}
