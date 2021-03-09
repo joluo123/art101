@@ -9,7 +9,7 @@ runAPI();
 function runAPI() {
 // Using the core $.ajax() method
 $.ajax({
-    // The URL for the request (from the api docs)
+    // The URL for the request (from the api docs) make sure to use https://
     url: "https://xkcd.com/info.0.json",
     // The data to send (will be converted to a query string)
     data: {
